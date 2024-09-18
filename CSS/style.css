@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin: 0; padding: 0;}
+body {background-image: url("../IMG/latin mafia imagen de fondo.jpg_large"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed;text-align: center; color: white; font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif" }
+
+/* el asterisco hace referencia a un selector universal, es decir, va a afectar a todos los elementos en el codigo fuente */
+
+.wrapper {background-color: rgba(92,128,127,0.53); width: 1000px; margin-left: auto; margin-right: auto;}
+
+footer {font-size: 10px; background-color: rgba(38,80,67,0.62); height: 50px; line-height: 50px;}
+
+.menu {background-color: cadetblue; height: 220px;}
+
+ul {list-style-type: none;}
+
+li {width: 249px; float: left; border-left: 1px solid rgba(255,255,255,1.00); line-height: 30px;}
+
+#izquierdo {border-left: none;}
+h1 {font-size: 60px; line-height: 180px;}
+
+.fondo {background-color: rgba(12,31,27,0.74); width:800px; margin-left: auto; margin-right: auto; padding: 50px; margin: 50px;}
+
+.fondo p {text-align: justify}
+
+h2 {color: rgba(255,245,235,1.00); border-top:2px solid rgba(255,245,235,1.00); border-bottom:2px solid rgba(255,245,235,1.00); width: 330px; margin-left: auto; margin-right: auto; line-height: 45px;}
+
+
+
+.polaroids {width: 317px; height: 380px; background-color: white; color: rgba(18,86,61,1.00); box-shadow: 10px 10px 20px black; float:left; margin: 8px}
+/*valores de box-shadow: x, y, difuminado, color*/
+
+.clear{clear: both}
+/*la propiedad clear permite que aparezca el wrapper despues de la propiedad float*/
+
+a{ text-decoration: none; color: white}
+
+a:hover {color:darkcyan; font-size: 20px}
